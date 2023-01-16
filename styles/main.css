@@ -1,5 +1,27 @@
+/* Make main-header have red background and padding to make it not thin*/ 
+.header {
+  background-color: #c33a3a;
+  padding: 25px ;
+}
+
+/* Style the header. Create padding between text. Create a rounded border when hovered over. No text decoration */
+.header a {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+}
 
 
+/* When hovered over, change color of background and text*/
+.header a:hover {
+  background-color: #ddd;
+  color: rgb(17, 165, 145);
+}
+
+/* Header band to be underneath the menu. Create padding. Align to the left. Back ground color, text color and font size */
 .header-band{
   padding: 60px;
   text-align: left;
