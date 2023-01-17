@@ -1,6 +1,12 @@
+
+/* Make entire background this color */
+body{
+  background-color: #66b1d4;
+}
+
 /* Make main-header have red background and padding to make it not thin*/ 
 .header {
-  background-color: #c33a3a;
+  background-color: #c4c2c2;
   padding: 25px ;
 }
 
@@ -18,8 +24,16 @@
 /* When hovered over, change color of background and text*/
 .header a:hover {
   background-color: #ddd;
-  color: rgb(17, 165, 145);
+  /* Really like this color - saving it for something else color: rgb(17, 165, 145); */
+  color: #66b1d4;
 }
+
+/* Add for responsiveness. If screen is 500px wide or less, links stack on top of each other. */
+@media(max-width: 500px) {
+  .header a {
+    display: block;
+  }
+  }
 
 /* Header band to be underneath the menu. Create padding. Align to the left. Back ground color, text color and font size */
 .header-band{
