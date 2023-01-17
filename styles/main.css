@@ -36,12 +36,14 @@ body{
   
   
  /* Header band to be underneath the menu. Create padding. Align to the left. Back ground color, text color and font size */
- .header-band{
+ .intro-on-me{
   padding: 60px;
   text-align: left;
   background: #98b8c7;
   color: white;
   font-size: 30px;
+  width: auto;
+ 
  }
 
 /* positioned relative to its normal position */
@@ -64,4 +66,6 @@ img {
   height: auto;
   opacity: 0.5;
 }
+
+
  
