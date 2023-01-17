@@ -1,45 +1,67 @@
-
 /* Make entire background this color */
 body{
   background-color: #66b1d4;
-}
-
-/* Make main-header have red background and padding to make it not thin*/ 
-.header {
+ }
+  
+ /* Make main-header have red background and padding to make it not thin*/
+ .header {
   background-color: #c4c2c2;
   padding: 25px ;
-}
-
-/* Style the header. Create padding between text. Create a rounded border when hovered over. No text decoration */
-.header a {
+ }
+  
+ /* Style the header. Create padding between text. Create a rounded border when hovered over. No text decoration */
+ .header a {
   text-align: center;
   color: rgb(255, 255, 255);
   padding: 12px;
   text-decoration: none;
   font-size: 25px;
   border-radius: 5px;
-}
-
-
-/* When hovered over, change color of background and text*/
-.header a:hover {
+ }
+  
+  
+ /* When hovered over, change color of background and text*/
+ .header a:hover {
   background-color: #ddd;
   /* Really like this color - saving it for something else color: rgb(17, 165, 145); */
   color: #66b1d4;
-}
-
-/* Add for responsiveness. If screen is 500px wide or less, links stack on top of each other. */
-@media(max-width: 500px) {
+ }
+  
+ /* Add for responsiveness. If screen is 500px wide or less, links stack on top of each other. */
+ @media(max-width: 500px) {
   .header a {
     display: block;
   }
   }
-
-/* Header band to be underneath the menu. Create padding. Align to the left. Back ground color, text color and font size */
-.header-band{
+  
+  
+ /* Header band to be underneath the menu. Create padding. Align to the left. Back ground color, text color and font size */
+ .header-band{
   padding: 60px;
   text-align: left;
-  background: #66b1d4;
+  background: #98b8c7;
   color: white;
   font-size: 30px;
+ }
+
+/* positioned relative to its normal position */
+ .header-image {
+  position: relative;
 }
+
+/* Place text in centre of image */
+.center-intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+/* Image size 100%, with auto height and add some opacity to make it pretty */
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+ 
