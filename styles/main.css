@@ -3,7 +3,7 @@ body{
   background-color: #66b1d4;
  }
   
-  /* Make main-header have red background and padding to make it not thin*/
+  /* Make main-header have white/greyish background and padding to make it not thin*/
  .header {
   background-color: #c4c2c2;
   padding: 25px ;
@@ -34,9 +34,7 @@ body{
   background: #98b8c7;
   color: white;
   font-size: 30px;
-  width: auto;
- 
- }
+  width: auto;}
 
 /* positioned relative to its normal position */
  .header-image {
