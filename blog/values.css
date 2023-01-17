@@ -1,0 +1,12 @@
+
+   /* Add for responsiveness. If screen is 500px wide or less, links stack on top of each other. */
+ @media(max-width: 500px ) {
+  .header a {
+    display: block;   
+  }
+}
+
+.p {
+  font-size: 40px;
+  color: blue;
+}
