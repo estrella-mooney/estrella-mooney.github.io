@@ -28,7 +28,7 @@ body{
   }
   .hero-text {
     font-size: 10px;
-    padding-top: 200px;
+    margin-top: 200px;
   } 
   
  }
@@ -49,10 +49,10 @@ padding-bottom: 10px;}
 
 
 .intro-text {
-  padding-top: 350px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  margin-top: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
   color: white;}
 
  
