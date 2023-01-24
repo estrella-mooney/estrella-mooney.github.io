@@ -11,6 +11,11 @@ body{
   overflow: hidden;
   background-color: #c4c2c2;
   padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
   
 }
 
@@ -129,9 +134,10 @@ padding-bottom: 10px;}
    /* Add for responsiveness. If screen is 768px wide or less, links stack on top of each other. */
    @media(max-width: 768px ) {
     .navbar {
-      display: block;   
+      flex-direction: column;
+       
     }
-    body {
-      font-size: 12px;
+    .intro-on-me {
+      font-size: 1.6em;
   }
   }
