@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" type="text/css" href="../styles/main.css">
+   <link href='https://fonts.googleapis.com/css?family=Esteban' rel='stylesheet'>
+
+   <title>My blog - Javascript DOM</title>
+
+   </head>
+ <body>
+  <div class="navbar">
+    <a href="../index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Blog
+      </button>
+      <div class="dropdown-content">
+        <a href="te-houtaewa-template.html">Te-houtaewa</a>
+        <a href="values.html">Values & Identity</a>
+        <a href="html-css.html">CSS concepts</a>
+        <a href="learning-plan.html">Learning Plan</a>
+        <a href="emotional-intelligence.html">Emotional-Intelligence</a>
+        <a href="javascript-dom.html">Javascript DOM</a>
+    </div>
+  </div>
+</div>
+  
+
+  <div class="hero-text">
+    <h1>Javascript DOM</h1>
+    <p>- blog</p>
+  </div>
+
+  <div class="intro-text">
+      <h1 class="bold-text">An analogy to describe JavaScript and its relationship to HTML and CSS:
+      </h1>
+      <p>JavaScript can be thought of as the "brain" of a website, while HTML is the "skeleton" and CSS is the "skin." HTML provides the structure and content of the website, CSS gives it visual style, and JavaScript adds interactivity and dynamic behavior. Together, they work in harmony to create a functional and visually appealing website.
+      </p>
+
+      <h1 class="bold-text">Explain control flow and loops using an example process from everyday life:
+      </h1>
+
+    <p>Control flow refers to the order in which the steps in a process are executed. For example, in making a sandwich, the first step is to gather all of the ingredients (bread, ham, tomatoes, cheese etc.). The next step is to lay out the bread, and then add the ham and cheese. Finally, the sandwich is closed and cut. These steps must be executed in a specific order, as you can't close and cut the sandwich before you've added the ham and cheese.
+    </p>
+    <p>A loop, on the other hand, is a way to repeat a set of instructions multiple times. For example, if you're making sandwiches for multiple people, you would use a loop to repeat the process of laying out bread, adding ham, tomatoes and cheese, and closing and cutting the sandwich for each person. In this way, you can make multiple sandwiches quickly and efficiently, without having to manually repeat the process for each person.
+    </p>
+    <p>
+      So in summary, control flow is the order in which we go through the steps to make the sandwich and loop is the way we repeat the process of making a sandwich for multiple people.
+    </p>
+
+    <p>Loop diagram example shown on left side below -- Control flow diagram example shown on right side below:</p>
+    <img src="../images/js-photo-5.png" alt="example-3" width="300" height="400">
+    <img src="../images/js-photo-4.png" alt="example-4" width="300" height="400">
+
+   <h1 class="bold-text">Describe what the DOM is and an example of how you might interact with it:
+   </h1>
+
+   <p>
+    The DOM (Document Object Model) is a way of representing an HTML or XML document in a structured tree-like format, where each element in the document is represented as an object. This allows developers to interact with the elements of a webpage, such as adding, modifying or removing elements, as well as retrieving information from the webpage.
+    </p>
+    <p>
+      An example (below) of how you might interact with the DOM is if you wanted to change the text of a heading on a webpage. You could use JavaScript to locate the heading element in the DOM, and then change the text of that element to whatever you want. For example, here I am using JavaScript to find the element with the ID "myHeading" and then change its text to "Hello World!" 
+    </p>
+    <img src="../images/js-photo-6.png" alt="example-5" width="400" height="200">
+
+      
+    <p>Another example (below) would be if you want to change the color of a button when it is clicked. For example here I am using JavaScript to add an event listener to the button, which listens for a click event. When the event is triggered (button is clicked), JavaScript can then change the color of the button by looking for the button element in the DOM and modifying its CSS styles.
+    </p>
+    <img src="../images/js-photo-7.png" alt="example-6" width="300" height="200">
+    <p>So in summary, DOM is a way to interact with the elements of a webpage using JavaScript, whether it be changing the text, color, style, or any other property of the element.</p>
+
+    <h1 class="bold-text">Explain the difference between accessing data from arrays and objects: 
+    </h1>
+
+    <p>An array is a data structure that stores a collection of items in a specific order, such as a list of numbers or strings. Each item in the array has a unique index or position, starting from 0. You can access the items in an array by referring to their index. For example, if you have an array called "fruits" that contains the items ["apple", "banana", "cherry", "orange"], you can access the first item (which is "apple") by writing fruits[0] (0, because we always start counting at 0) and the same for the second item (which is "banana") by writing fruits[1]. And so forth.  .</p>
+    <p>This is demonstrated in my example (below)</p>
+    <img src="../images/array-1.png" alt="example-6" width="400" height="100">
+    <p>On the other hand, an object is a data structure that stores a collection of items as key-value pairs. Each key is a unique identifier that is used to access the associated value. For example, if you have an object called "person" that contains information about a person's name and age, phone number, and address, you might have keys called "name", "age", "address" and "phone" with corresponding values such as "Jane Doe", "32", "123 Tricker St" and "000-000-000". To access the name of the person, you would write person.name and to access the age you would write person.age.
+    </p>
+    <img src="../images/objects-2.png" alt="example-6" width="200" height="80">
+
+    <p>So, in summary, arrays are indexed by position and you access the element by referring to its position, whereas objects are indexed by keys, so you access the element by referring to its key.
+    </p>
+
+    <h1 class="bold-text">Explain what functions are and why they are helpful: 
+    </h1>
+    <p>A function is a block of code that performs a specific task, and can be reused throughout a program. Functions allow you to write code once and use it multiple times, rather than writing the same code over and over again.
+    </p>
+    <p>Imagine you want to bake a cake. You would gather the ingredients, mix them together in a specific way, and then bake the cake. This process can be written as a recipe, which is a set of instructions that you can follow to make the cake. Similarly, you can write a function in code that performs a specific task, like displaying a message on the screen or calculating the total cost of an order.
+    </p>
+    <ul>
+      <li>They allow you to organize your code into small, manageable chunks that are easy to understand and maintain.</li>
+      <li>They make it easy to reuse code, which can save time and reduce the likelihood of introducing bugs.
+      </li>
+      <li>Functions can also be used to break down a large program into smaller, more manageable pieces that can be worked on by different people.
+      </li>
+    </ul>
+    <p>So in summary, functions are blocks of code that are designed to perform a specific task and can be reused throughout a program, making the code more organized, easy to understand, maintain, and reduce the likelihood of introducing bugs.
+    </p>
+  </div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
